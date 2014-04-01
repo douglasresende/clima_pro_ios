@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A9980618EB88DF0028262C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9980518EB88DF0028262C /* Foundation.framework */; };
+		C0A9980818EB88DF0028262C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9980718EB88DF0028262C /* CoreGraphics.framework */; };
+		C0A9980A18EB88DF0028262C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9980918EB88DF0028262C /* UIKit.framework */; };
+		C0A9981018EB88DF0028262C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0A9980E18EB88DF0028262C /* InfoPlist.strings */; };
+		C0A9981218EB88DF0028262C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9981118EB88DF0028262C /* main.m */; };
+		C0A9981618EB88DF0028262C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9981518EB88DF0028262C /* AppDelegate.m */; };
+		C0A9981918EB88DF0028262C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A9981718EB88DF0028262C /* Main.storyboard */; };
+		C0A9981C18EB88DF0028262C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9981B18EB88DF0028262C /* FirstViewController.m */; };
+		C0A9981F18EB88DF0028262C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9981E18EB88DF0028262C /* SecondViewController.m */; };
+		C0A9982118EB88DF0028262C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A9982018EB88DF0028262C /* Images.xcassets */; };
+		C0A9982818EB88DF0028262C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9982718EB88DF0028262C /* XCTest.framework */; };
+		C0A9982918EB88DF0028262C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9980518EB88DF0028262C /* Foundation.framework */; };
+		C0A9982A18EB88DF0028262C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9980918EB88DF0028262C /* UIKit.framework */; };
+		C0A9983218EB88DF0028262C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0A9983018EB88DF0028262C /* InfoPlist.strings */; };
+		C0A9983418EB88DF0028262C /* ClimaPROTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9983318EB88DF0028262C /* ClimaPROTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A9982B18EB88DF0028262C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A997FA18EB88DF0028262C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A9980118EB88DF0028262C;
+			remoteInfo = ClimaPRO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0A9980218EB88DF0028262C /* ClimaPRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaPRO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A9980518EB88DF0028262C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0A9980718EB88DF0028262C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0A9980918EB88DF0028262C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0A9980D18EB88DF0028262C /* ClimaPRO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClimaPRO-Info.plist"; sourceTree = "<group>"; };
+		C0A9980F18EB88DF0028262C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0A9981118EB88DF0028262C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0A9981318EB88DF0028262C /* ClimaPRO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClimaPRO-Prefix.pch"; sourceTree = "<group>"; };
+		C0A9981418EB88DF0028262C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0A9981518EB88DF0028262C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0A9981818EB88DF0028262C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A9981A18EB88DF0028262C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C0A9981B18EB88DF0028262C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C0A9981D18EB88DF0028262C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C0A9981E18EB88DF0028262C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C0A9982018EB88DF0028262C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0A9982618EB88DF0028262C /* ClimaPROTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaPROTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A9982718EB88DF0028262C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C0A9982F18EB88DF0028262C /* ClimaPROTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClimaPROTests-Info.plist"; sourceTree = "<group>"; };
+		C0A9983118EB88DF0028262C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0A9983318EB88DF0028262C /* ClimaPROTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClimaPROTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A997FF18EB88DF0028262C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A9980818EB88DF0028262C /* CoreGraphics.framework in Frameworks */,
+				C0A9980A18EB88DF0028262C /* UIKit.framework in Frameworks */,
+				C0A9980618EB88DF0028262C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A9982318EB88DF0028262C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A9982818EB88DF0028262C /* XCTest.framework in Frameworks */,
+				C0A9982A18EB88DF0028262C /* UIKit.framework in Frameworks */,
+				C0A9982918EB88DF0028262C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A997F918EB88DF0028262C = {
+			isa = PBXGroup;
+			children = (
+				C0A9980B18EB88DF0028262C /* ClimaPRO */,
+				C0A9982D18EB88DF0028262C /* ClimaPROTests */,
+				C0A9980418EB88DF0028262C /* Frameworks */,
+				C0A9980318EB88DF0028262C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A9980318EB88DF0028262C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A9980218EB88DF0028262C /* ClimaPRO.app */,
+				C0A9982618EB88DF0028262C /* ClimaPROTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A9980418EB88DF0028262C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A9980518EB88DF0028262C /* Foundation.framework */,
+				C0A9980718EB88DF0028262C /* CoreGraphics.framework */,
+				C0A9980918EB88DF0028262C /* UIKit.framework */,
+				C0A9982718EB88DF0028262C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0A9980B18EB88DF0028262C /* ClimaPRO */ = {
+			isa = PBXGroup;
+			children = (
+				C0A9981418EB88DF0028262C /* AppDelegate.h */,
+				C0A9981518EB88DF0028262C /* AppDelegate.m */,
+				C0A9981718EB88DF0028262C /* Main.storyboard */,
+				C0A9981A18EB88DF0028262C /* FirstViewController.h */,
+				C0A9981B18EB88DF0028262C /* FirstViewController.m */,
+				C0A9981D18EB88DF0028262C /* SecondViewController.h */,
+				C0A9981E18EB88DF0028262C /* SecondViewController.m */,
+				C0A9982018EB88DF0028262C /* Images.xcassets */,
+				C0A9980C18EB88DF0028262C /* Supporting Files */,
+			);
+			path = ClimaPRO;
+			sourceTree = "<group>";
+		};
+		C0A9980C18EB88DF0028262C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A9980D18EB88DF0028262C /* ClimaPRO-Info.plist */,
+				C0A9980E18EB88DF0028262C /* InfoPlist.strings */,
+				C0A9981118EB88DF0028262C /* main.m */,
+				C0A9981318EB88DF0028262C /* ClimaPRO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A9982D18EB88DF0028262C /* ClimaPROTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A9983318EB88DF0028262C /* ClimaPROTests.m */,
+				C0A9982E18EB88DF0028262C /* Supporting Files */,
+			);
+			path = ClimaPROTests;
+			sourceTree = "<group>";
+		};
+		C0A9982E18EB88DF0028262C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A9982F18EB88DF0028262C /* ClimaPROTests-Info.plist */,
+				C0A9983018EB88DF0028262C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A9980118EB88DF0028262C /* ClimaPRO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A9983718EB88DF0028262C /* Build configuration list for PBXNativeTarget "ClimaPRO" */;
+			buildPhases = (
+				C0A997FE18EB88DF0028262C /* Sources */,
+				C0A997FF18EB88DF0028262C /* Frameworks */,
+				C0A9980018EB88DF0028262C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimaPRO;
+			productName = ClimaPRO;
+			productReference = C0A9980218EB88DF0028262C /* ClimaPRO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A9982518EB88DF0028262C /* ClimaPROTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A9983A18EB88DF0028262C /* Build configuration list for PBXNativeTarget "ClimaPROTests" */;
+			buildPhases = (
+				C0A9982218EB88DF0028262C /* Sources */,
+				C0A9982318EB88DF0028262C /* Frameworks */,
+				C0A9982418EB88DF0028262C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A9982C18EB88DF0028262C /* PBXTargetDependency */,
+			);
+			name = ClimaPROTests;
+			productName = ClimaPROTests;
+			productReference = C0A9982618EB88DF0028262C /* ClimaPROTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A997FA18EB88DF0028262C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mdlsistemas;
+				TargetAttributes = {
+					C0A9982518EB88DF0028262C = {
+						TestTargetID = C0A9980118EB88DF0028262C;
+					};
+				};
+			};
+			buildConfigurationList = C0A997FD18EB88DF0028262C /* Build configuration list for PBXProject "ClimaPRO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A997F918EB88DF0028262C;
+			productRefGroup = C0A9980318EB88DF0028262C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A9980118EB88DF0028262C /* ClimaPRO */,
+				C0A9982518EB88DF0028262C /* ClimaPROTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A9980018EB88DF0028262C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A9982118EB88DF0028262C /* Images.xcassets in Resources */,
+				C0A9981018EB88DF0028262C /* InfoPlist.strings in Resources */,
+				C0A9981918EB88DF0028262C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A9982418EB88DF0028262C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A9983218EB88DF0028262C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A997FE18EB88DF0028262C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A9981F18EB88DF0028262C /* SecondViewController.m in Sources */,
+				C0A9981618EB88DF0028262C /* AppDelegate.m in Sources */,
+				C0A9981C18EB88DF0028262C /* FirstViewController.m in Sources */,
+				C0A9981218EB88DF0028262C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A9982218EB88DF0028262C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A9983418EB88DF0028262C /* ClimaPROTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A9982C18EB88DF0028262C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A9980118EB88DF0028262C /* ClimaPRO */;
+			targetProxy = C0A9982B18EB88DF0028262C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0A9980E18EB88DF0028262C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A9980F18EB88DF0028262C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0A9981718EB88DF0028262C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A9981818EB88DF0028262C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A9983018EB88DF0028262C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A9983118EB88DF0028262C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A9983518EB88DF0028262C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0A9983618EB88DF0028262C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A9983818EB88DF0028262C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClimaPRO/ClimaPRO-Prefix.pch";
+				INFOPLIST_FILE = "ClimaPRO/ClimaPRO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0A9983918EB88DF0028262C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClimaPRO/ClimaPRO-Prefix.pch";
+				INFOPLIST_FILE = "ClimaPRO/ClimaPRO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0A9983B18EB88DF0028262C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClimaPRO.app/ClimaPRO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClimaPRO/ClimaPRO-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClimaPROTests/ClimaPROTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0A9983C18EB88DF0028262C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClimaPRO.app/ClimaPRO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClimaPRO/ClimaPRO-Prefix.pch";
+				INFOPLIST_FILE = "ClimaPROTests/ClimaPROTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A997FD18EB88DF0028262C /* Build configuration list for PBXProject "ClimaPRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A9983518EB88DF0028262C /* Debug */,
+				C0A9983618EB88DF0028262C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A9983718EB88DF0028262C /* Build configuration list for PBXNativeTarget "ClimaPRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A9983818EB88DF0028262C /* Debug */,
+				C0A9983918EB88DF0028262C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0A9983A18EB88DF0028262C /* Build configuration list for PBXNativeTarget "ClimaPROTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A9983B18EB88DF0028262C /* Debug */,
+				C0A9983C18EB88DF0028262C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A997FA18EB88DF0028262C /* Project object */;
+}
