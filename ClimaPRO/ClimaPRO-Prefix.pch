@@ -14,3 +14,8 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+
+//URLs
+#define URL_GET_WEATHER_BY_COORD @"http://api.openweathermap.org/data/2.5/weather/"
+//#define URL_GET_WEATHER_BY_COORD @"http://localhost:3000/"

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TempoCidadeViewController.h"
 
-@interface SecondViewController : UIViewController
-
+@interface SecondViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    NSDictionary *cidadeSelecionada;
+}
+@property(nonatomic, retain) NSArray *arrayDeCidades;
 @end

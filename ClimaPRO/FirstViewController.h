@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "TempoCidadeViewController.h"
 
-@interface FirstViewController : UIViewController
-
+@interface FirstViewController : UIViewController <MKMapViewDelegate>
+{
+    MKMapView *mapView;
+    NSDictionary *cidadeSelecionada;
+}
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property(nonatomic, retain) NSArray *arrayDeCidades;
 @end
