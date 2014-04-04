@@ -70,7 +70,6 @@
     {
         if([[row valueForKey:@"nome"] isEqualToString:view.annotation.title])
         {
-            NSLog(@"%@", [row valueForKeyPath:@"nome"]);
             cidadeSelecionada = row;
         }
     }

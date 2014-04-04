@@ -25,7 +25,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)viewWillAppear:(BOOL)animated
 {
     self.title = @"LISTA DE CIDADES";
 }
@@ -49,7 +49,6 @@
 -(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *myCell = [tableView dequeueReusableCellWithIdentifier:@"listaCidades"];
-//    Jogador *jogador = [arrayDeJogadores objectAtIndex:[indexPath row]];
     
     UILabel *labelNome = (UILabel *) [myCell viewWithTag:TAG_NOME_CIDADE];
     NSDictionary *cidade = [arrayDeCidades objectAtIndex:[indexPath row]];
@@ -67,6 +66,7 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    self.title = @"Cidades";
     TempoCidadeViewController *segueTempoCidade = segue.destinationViewController;
     segueTempoCidade.title = [cidadeSelecionada valueForKey:@"nome"];
     segueTempoCidade.cidadeSelecionada = cidadeSelecionada;

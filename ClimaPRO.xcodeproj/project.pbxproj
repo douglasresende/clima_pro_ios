@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C019EDE518EE03F30079C1E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C019EDE418EE03F30079C1E6 /* Default.png */; };
+		C019EDE718EE044D0079C1E6 /* Default-Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = C019EDE618EE044D0079C1E6 /* Default-Spotlight.png */; };
+		C019EDE918EE04760079C1E6 /* Default-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = C019EDE818EE04760079C1E6 /* Default-Settings.png */; };
 		C0A9980618EB88DF0028262C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9980518EB88DF0028262C /* Foundation.framework */; };
 		C0A9980818EB88DF0028262C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9980718EB88DF0028262C /* CoreGraphics.framework */; };
 		C0A9980A18EB88DF0028262C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9980918EB88DF0028262C /* UIKit.framework */; };
@@ -24,7 +27,6 @@
 		C0A9983418EB88DF0028262C /* ClimaPROTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9983318EB88DF0028262C /* ClimaPROTests.m */; };
 		C0A9983E18EB8DAD0028262C /* cidades.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0A9983D18EB8DAD0028262C /* cidades.plist */; };
 		C0A9984118EB942E0028262C /* TempoCidadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9984018EB942E0028262C /* TempoCidadeViewController.m */; };
-		C0A9984518EB97B00028262C /* Cidade.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9984418EB97B00028262C /* Cidade.m */; };
 		C0A9984718EB98AA0028262C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A9984618EB98AA0028262C /* MapKit.framework */; };
 		C0C6FE9218EC6BE7006EFDC1 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C6FE6818EC6BE7006EFDC1 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C0C6FE9318EC6BE7006EFDC1 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C6FE6B18EC6BE7006EFDC1 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -64,6 +66,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C019EDE418EE03F30079C1E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C019EDE618EE044D0079C1E6 /* Default-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Spotlight.png"; sourceTree = "<group>"; };
+		C019EDE818EE04760079C1E6 /* Default-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Settings.png"; sourceTree = "<group>"; };
 		C0A9980218EB88DF0028262C /* ClimaPRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaPRO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A9980518EB88DF0028262C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0A9980718EB88DF0028262C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,8 +93,6 @@
 		C0A9983D18EB8DAD0028262C /* cidades.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cidades.plist; sourceTree = "<group>"; };
 		C0A9983F18EB942E0028262C /* TempoCidadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempoCidadeViewController.h; sourceTree = "<group>"; };
 		C0A9984018EB942E0028262C /* TempoCidadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempoCidadeViewController.m; sourceTree = "<group>"; };
-		C0A9984318EB97B00028262C /* Cidade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cidade.h; sourceTree = "<group>"; };
-		C0A9984418EB97B00028262C /* Cidade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cidade.m; sourceTree = "<group>"; };
 		C0A9984618EB98AA0028262C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C0C6FE6718EC6BE7006EFDC1 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		C0C6FE6818EC6BE7006EFDC1 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
@@ -214,7 +217,6 @@
 		C0A9980B18EB88DF0028262C /* ClimaPRO */ = {
 			isa = PBXGroup;
 			children = (
-				C0A9984218EB97730028262C /* MODEL */,
 				C0A9981418EB88DF0028262C /* AppDelegate.h */,
 				C0A9981518EB88DF0028262C /* AppDelegate.m */,
 				C0A9981718EB88DF0028262C /* Main.storyboard */,
@@ -233,6 +235,9 @@
 		C0A9980C18EB88DF0028262C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C019EDE418EE03F30079C1E6 /* Default.png */,
+				C019EDE618EE044D0079C1E6 /* Default-Spotlight.png */,
+				C019EDE818EE04760079C1E6 /* Default-Settings.png */,
 				C0A9983D18EB8DAD0028262C /* cidades.plist */,
 				C0A9980D18EB88DF0028262C /* ClimaPRO-Info.plist */,
 				C0A9980E18EB88DF0028262C /* InfoPlist.strings */,
@@ -258,15 +263,6 @@
 				C0A9983018EB88DF0028262C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C0A9984218EB97730028262C /* MODEL */ = {
-			isa = PBXGroup;
-			children = (
-				C0A9984318EB97B00028262C /* Cidade.h */,
-				C0A9984418EB97B00028262C /* Cidade.m */,
-			);
-			name = MODEL;
 			sourceTree = "<group>";
 		};
 		C0C6FE6618EC6BA7006EFDC1 /* AsiHttpRequest */ = {
@@ -404,10 +400,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C019EDE718EE044D0079C1E6 /* Default-Spotlight.png in Resources */,
+				C019EDE918EE04760079C1E6 /* Default-Settings.png in Resources */,
 				C0A9983E18EB8DAD0028262C /* cidades.plist in Resources */,
 				C0A9982118EB88DF0028262C /* Images.xcassets in Resources */,
 				C0A9981018EB88DF0028262C /* InfoPlist.strings in Resources */,
 				C0A9981918EB88DF0028262C /* Main.storyboard in Resources */,
+				C019EDE518EE03F30079C1E6 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +428,6 @@
 				C0A9984118EB942E0028262C /* TempoCidadeViewController.m in Sources */,
 				C0C6FE9818EC6BE7006EFDC1 /* ASIInputStream.m in Sources */,
 				C0C6FE9A18EC6BE7006EFDC1 /* JSONKIT.m in Sources */,
-				C0A9984518EB97B00028262C /* Cidade.m in Sources */,
 				C0C6FE9518EC6BE7006EFDC1 /* ASIDownloadCache.m in Sources */,
 				C0C6FE9318EC6BE7006EFDC1 /* ASIDataCompressor.m in Sources */,
 				C0A9981F18EB88DF0028262C /* SecondViewController.m in Sources */,
@@ -574,7 +572,6 @@
 		C0A9983818EB88DF0028262C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClimaPRO/ClimaPRO-Prefix.pch";
@@ -587,7 +584,6 @@
 		C0A9983918EB88DF0028262C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClimaPRO/ClimaPRO-Prefix.pch";
